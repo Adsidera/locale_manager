@@ -1,0 +1,52 @@
+# Localization file for English.
+fr:
+  default_title: MOOCs - start to enjoy learning now
+
+  date:
+    formats:
+      long: "%B %d, %Y %H:%M"
+      default: "%Y-%m-%d"
+      short: "%b %d, %Y"
+      informal: "%B %-d"
+    timezone: "(UTC)"
+
+  # language and language names
+  languages:
+    language: Language
+    item: "%{name}"
+
+  buttons:
+    show_advanced_settings: Advanced settings
+    hide_advanced_settings: Hide advanced settings
+    another_key:
+      new_key: Something
+      add_key: Something first
+
+  # Global strings are reusable short translations
+  # that appear often and can be references in specific scopes
+  # for languages that have less contextual differences
+  # They can be referenced like `my_string: :global.email`
+  global:
+    email: E-mail
+    email_or_name: E-Mail oder Name
+    password: Password
+    toggle_dropdown: Toggle dropdown
+    are_you_sure: Are you sure?
+    confirm: Yes, sure
+    cancel: Cancel
+    back: Back
+    download: Download
+    submit: Submit
+    add: Add
+    edit: Edit
+    delete: Delete
+    beta: Beta
+    beta_description: "This new functionality is not yet optimized for all browsers. Please create a helpdesk ticket to inform us about errors, providing details including the browser and browser version you are using. As a workaround, we ask you to try another browser to continue (Chrome or Firefox)"
+    nojs:
+      label: Please enable Javascript in your browser!!
+      link: https://turnonjs.com/
+    read_more: Read more
+    read_less: Read less
+    close: Close
+
+  errors:
